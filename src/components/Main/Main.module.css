@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 95vh;
+}
+
+.spinner{
+  margin-top: 25vh;
+  height: 95vh;
+}
+
+.text {
+  text-align: left;
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .text {
+    text-align: center;
+    padding-left: 62px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

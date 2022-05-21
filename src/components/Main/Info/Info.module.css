@@ -1,0 +1,49 @@
+.wrapper {
+  margin-left: 55px;
+  margin-right: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  height: 280px;
+  width: 280px;
+  margin-top: 39px;
+  margin-bottom: 29px;
+  border-radius: 140px;
+}
+.link {
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0064eb;
+  text-decoration: none;
+}
+
+.follows {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 25px;
+}
+
+.followers {
+  text-align: left;
+  margin-right: 25px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
