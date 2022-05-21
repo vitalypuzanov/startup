@@ -19,6 +19,7 @@
   .wrap {
     flex-wrap: wrap;
     justify-content: center;
+    height: inherit;
   }
   .text {
     text-align: center;
